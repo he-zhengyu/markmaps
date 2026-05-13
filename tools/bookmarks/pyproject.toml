@@ -1,0 +1,14 @@
+[project]
+name = "bookmarks-cli"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pypdf",          # 替换为你脚本实际依赖的包
+]
+
+[project.scripts]
+bookmarks = "bookmarks_cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
