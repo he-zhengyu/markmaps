@@ -1,0 +1,15 @@
+# Obsidian - ignore noisy state files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/.trash/
+
+# Obsidian - ignore plugin binaries (let plugin manager restore them)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
