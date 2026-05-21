@@ -1,0 +1,1912 @@
+[
+  {
+    "title": "Foreword",
+    "page": 6,
+    "level": 0
+  },
+  {
+    "title": "A Thought Leader’s Perspective: Power and Responsibility",
+    "page": 8,
+    "level": 0
+  },
+  {
+    "title": "Prologue",
+    "page": 11,
+    "level": 0
+  },
+  {
+    "title": "What Makes an AI System an Agent?",
+    "page": 11,
+    "level": 1
+  },
+  {
+    "title": "Level 0: The Core Reasoning Engine",
+    "page": 12,
+    "level": 2
+  },
+  {
+    "title": "Level 1: The Connected Problem-Solver",
+    "page": 14,
+    "level": 2
+  },
+  {
+    "title": "Level 2: The Strategic Problem-Solver",
+    "page": 14,
+    "level": 2
+  },
+  {
+    "title": "Level 3: The Rise of Collaborative Multi-Agent Systems",
+    "page": 15,
+    "level": 2
+  },
+  {
+    "title": "The Future of Agents: Top Five Hypotheses",
+    "page": 16,
+    "level": 2
+  },
+  {
+    "title": "Hypothesis 1: The Emergence of the Generalist Agent",
+    "page": 16,
+    "level": 3
+  },
+  {
+    "title": "Hypothesis 2: Deep Personalization and Proactive Goal Discovery",
+    "page": 17,
+    "level": 3
+  },
+  {
+    "title": "Hypothesis 3: Embodiment and Physical World Interaction",
+    "page": 17,
+    "level": 3
+  },
+  {
+    "title": "Hypothesis 4: The Agent-Driven Economy",
+    "page": 18,
+    "level": 3
+  },
+  {
+    "title": "Hypothesis 5: The Goal-Driven, Metamorphic Multi-Agent System",
+    "page": 18,
+    "level": 3
+  },
+  {
+    "title": "Conclusion",
+    "page": 19,
+    "level": 1
+  },
+  {
+    "title": "References",
+    "page": 19,
+    "level": 1
+  },
+  {
+    "title": "Preface",
+    "page": 21,
+    "level": 0
+  },
+  {
+    "title": "What Are Agentic Systems?",
+    "page": 22,
+    "level": 1
+  },
+  {
+    "title": "Why Patterns Matter in Agent Development",
+    "page": 22,
+    "level": 1
+  },
+  {
+    "title": "Overview of the Book and How to Use It",
+    "page": 23,
+    "level": 1
+  },
+  {
+    "title": "Introduction to the Frameworks Used",
+    "page": 24,
+    "level": 1
+  },
+  {
+    "title": "Acknowledgments",
+    "page": 26,
+    "level": 0
+  },
+  {
+    "title": "Contents",
+    "page": 29,
+    "level": 0
+  },
+  {
+    "title": "Part I: The Patterns",
+    "page": 40,
+    "level": 0
+  },
+  {
+    "title": "1: Prompt Chaining",
+    "page": 41,
+    "level": 1
+  },
+  {
+    "title": "Prompt Chaining Pattern Overview",
+    "page": 41,
+    "level": 2
+  },
+  {
+    "title": "Limitations of Single Prompts",
+    "page": 42,
+    "level": 3
+  },
+  {
+    "title": "Enhanced Reliability Through Sequential Decomposition",
+    "page": 42,
+    "level": 3
+  },
+  {
+    "title": "The Role of Structured Output",
+    "page": 43,
+    "level": 3
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 44,
+    "level": 2
+  },
+  {
+    "title": "Information Processing Workflows",
+    "page": 44,
+    "level": 3
+  },
+  {
+    "title": "Complex Query Answering",
+    "page": 44,
+    "level": 3
+  },
+  {
+    "title": "Data Extraction and Transformation",
+    "page": 45,
+    "level": 3
+  },
+  {
+    "title": "Content Generation Workflows",
+    "page": 46,
+    "level": 3
+  },
+  {
+    "title": "Conversational Agents with State",
+    "page": 47,
+    "level": 3
+  },
+  {
+    "title": "Code Generation and Refinement",
+    "page": 47,
+    "level": 3
+  },
+  {
+    "title": "Multimodal and Multi-Step Reasoning",
+    "page": 48,
+    "level": 3
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 48,
+    "level": 2
+  },
+  {
+    "title": "Context Engineering and Prompt Engineering",
+    "page": 50,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 52,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 54,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 54,
+    "level": 2
+  },
+  {
+    "title": "2: Routing",
+    "page": 55,
+    "level": 1
+  },
+  {
+    "title": "Routing Pattern Overview",
+    "page": 55,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 57,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (LangChain)",
+    "page": 58,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (Google ADK)",
+    "page": 62,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 66,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 67,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 67,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 68,
+    "level": 2
+  },
+  {
+    "title": "3: Parallelization",
+    "page": 69,
+    "level": 1
+  },
+  {
+    "title": "Parallelization Pattern Overview",
+    "page": 69,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 71,
+    "level": 2
+  },
+  {
+    "title": "Information Gathering and Research",
+    "page": 71,
+    "level": 3
+  },
+  {
+    "title": "Data Processing and Analysis",
+    "page": 71,
+    "level": 3
+  },
+  {
+    "title": "Multi-API or Tool Interaction",
+    "page": 72,
+    "level": 3
+  },
+  {
+    "title": "Content Generation with Multiple Components",
+    "page": 72,
+    "level": 3
+  },
+  {
+    "title": "Validation and Verification",
+    "page": 72,
+    "level": 3
+  },
+  {
+    "title": "Multi-Modal Processing",
+    "page": 72,
+    "level": 3
+  },
+  {
+    "title": "A/B Testing or Multiple Options Generation",
+    "page": 73,
+    "level": 3
+  },
+  {
+    "title": "Hands-On Code Example (LangChain)",
+    "page": 73,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (Google ADK)",
+    "page": 77,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 81,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 82,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 83,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 83,
+    "level": 2
+  },
+  {
+    "title": "4: Reflection",
+    "page": 84,
+    "level": 1
+  },
+  {
+    "title": "Reflection Pattern Overview",
+    "page": 84,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 86,
+    "level": 2
+  },
+  {
+    "title": "Creative Writing and Content Generation",
+    "page": 87,
+    "level": 3
+  },
+  {
+    "title": "Code Generation and Debugging",
+    "page": 87,
+    "level": 3
+  },
+  {
+    "title": "Complex Problem Solving",
+    "page": 87,
+    "level": 3
+  },
+  {
+    "title": "Summarization and Information Synthesis",
+    "page": 87,
+    "level": 3
+  },
+  {
+    "title": "Planning and Strategy",
+    "page": 88,
+    "level": 3
+  },
+  {
+    "title": "Conversational Agents",
+    "page": 88,
+    "level": 3
+  },
+  {
+    "title": "Hands-On Code Example (LangChain)",
+    "page": 88,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (ADK)",
+    "page": 92,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 93,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 95,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 96,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 96,
+    "level": 2
+  },
+  {
+    "title": "5: Tool Use (Function Calling)",
+    "page": 97,
+    "level": 1
+  },
+  {
+    "title": "Tool Use Pattern Overview",
+    "page": 97,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 99,
+    "level": 2
+  },
+  {
+    "title": "Information Retrieval from External Sources",
+    "page": 99,
+    "level": 3
+  },
+  {
+    "title": "Interacting with Databases and APIs",
+    "page": 99,
+    "level": 3
+  },
+  {
+    "title": "Performing Calculations and Data Analysis",
+    "page": 99,
+    "level": 3
+  },
+  {
+    "title": "Sending Communications",
+    "page": 100,
+    "level": 3
+  },
+  {
+    "title": "Executing Code",
+    "page": 100,
+    "level": 3
+  },
+  {
+    "title": "Controlling Other Systems or Devices",
+    "page": 100,
+    "level": 3
+  },
+  {
+    "title": "Hands-On Code Example (LangChain)",
+    "page": 101,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (CrewAI)",
+    "page": 104,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code (Google ADK)",
+    "page": 107,
+    "level": 2
+  },
+  {
+    "title": "Google Search",
+    "page": 108,
+    "level": 3
+  },
+  {
+    "title": "Code Execution",
+    "page": 111,
+    "level": 3
+  },
+  {
+    "title": "Enterprise Search",
+    "page": 112,
+    "level": 3
+  },
+  {
+    "title": "Vertex Extensions",
+    "page": 114,
+    "level": 3
+  },
+  {
+    "title": "At a Glance",
+    "page": 115,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 116,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 117,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 117,
+    "level": 2
+  },
+  {
+    "title": "6: Planning",
+    "page": 118,
+    "level": 1
+  },
+  {
+    "title": "Planning Pattern Overview",
+    "page": 118,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 119,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code (Crew AI)",
+    "page": 120,
+    "level": 2
+  },
+  {
+    "title": "Google DeepResearch",
+    "page": 121,
+    "level": 2
+  },
+  {
+    "title": "OpenAI Deep Research API",
+    "page": 125,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 128,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 129,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 130,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 130,
+    "level": 2
+  },
+  {
+    "title": "7: Multi-Agent Collaboration",
+    "page": 131,
+    "level": 1
+  },
+  {
+    "title": "Multi-Agent Collaboration Pattern Overview",
+    "page": 132,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 133,
+    "level": 2
+  },
+  {
+    "title": "Multi-Agent Collaboration: Exploring Interrelationships and Communication Structures",
+    "page": 134,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code (Crew AI)",
+    "page": 137,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code (Google ADK)",
+    "page": 139,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 145,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 147,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 147,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 147,
+    "level": 2
+  },
+  {
+    "title": "8: Memory Management",
+    "page": 148,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 149,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code: Memory Management in Google Agent Developer Kit (ADK)",
+    "page": 150,
+    "level": 2
+  },
+  {
+    "title": "Session: Keeping Track of Each Chat",
+    "page": 151,
+    "level": 3
+  },
+  {
+    "title": "State: The Session’s Scratchpad",
+    "page": 153,
+    "level": 3
+  },
+  {
+    "title": "Memory: Long-Term Knowledge with MemoryService",
+    "page": 157,
+    "level": 3
+  },
+  {
+    "title": "Hands-On Code: Memory Management in LangChain and LangGraph",
+    "page": 159,
+    "level": 2
+  },
+  {
+    "title": "Vertex Memory Bank",
+    "page": 164,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 165,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 166,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 167,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 167,
+    "level": 2
+  },
+  {
+    "title": "9: Learning and Adaptation",
+    "page": 168,
+    "level": 1
+  },
+  {
+    "title": "The Big Picture",
+    "page": 168,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 170,
+    "level": 2
+  },
+  {
+    "title": "Case Study: The Self-Improving Coding Agent (SICA)",
+    "page": 171,
+    "level": 2
+  },
+  {
+    "title": "AlphaEvolve and OpenEvolve",
+    "page": 175,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 177,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 178,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 179,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 179,
+    "level": 2
+  },
+  {
+    "title": "10: Model Context Protocol",
+    "page": 180,
+    "level": 1
+  },
+  {
+    "title": "MCP Pattern Overview",
+    "page": 180,
+    "level": 2
+  },
+  {
+    "title": "MCP vs. Tool Function Calling",
+    "page": 181,
+    "level": 2
+  },
+  {
+    "title": "Additional Considerations for MCP",
+    "page": 183,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 185,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example with ADK",
+    "page": 186,
+    "level": 2
+  },
+  {
+    "title": "Agent Setup with MCPToolset",
+    "page": 187,
+    "level": 3
+  },
+  {
+    "title": "Connecting the MCP Server with ADK Web",
+    "page": 189,
+    "level": 3
+  },
+  {
+    "title": "Creating an MCP Server with FastMCP",
+    "page": 189,
+    "level": 3
+  },
+  {
+    "title": "Server Setup with FastMCP",
+    "page": 190,
+    "level": 3
+  },
+  {
+    "title": "Consuming the FastMCP Server with an ADK Agent",
+    "page": 191,
+    "level": 3
+  },
+  {
+    "title": "At a Glance",
+    "page": 193,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 194,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 195,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 195,
+    "level": 2
+  },
+  {
+    "title": "11: Goal Setting and Monitoring",
+    "page": 196,
+    "level": 1
+  },
+  {
+    "title": "Goal Setting and Monitoring Pattern Overview",
+    "page": 196,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 197,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 198,
+    "level": 2
+  },
+  {
+    "title": "Dependencies",
+    "page": 198,
+    "level": 3
+  },
+  {
+    "title": "Caveats and Considerations",
+    "page": 204,
+    "level": 3
+  },
+  {
+    "title": "At a Glance",
+    "page": 205,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 206,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 207,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 207,
+    "level": 2
+  },
+  {
+    "title": "12: Exception Handling and Recovery",
+    "page": 208,
+    "level": 1
+  },
+  {
+    "title": "Exception Handling and Recovery Pattern Overview",
+    "page": 209,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 210,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (ADK)",
+    "page": 211,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 213,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 214,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 214,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 215,
+    "level": 2
+  },
+  {
+    "title": "13: Human-in-the-Loop",
+    "page": 216,
+    "level": 1
+  },
+  {
+    "title": "Human-in-the-Loop Pattern Overview",
+    "page": 217,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 218,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 220,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 222,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 223,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 224,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 224,
+    "level": 2
+  },
+  {
+    "title": "14: Knowledge Retrieval (RAG)",
+    "page": 225,
+    "level": 1
+  },
+  {
+    "title": "Knowledge Retrieval (RAG) Pattern Overview",
+    "page": 225,
+    "level": 2
+  },
+  {
+    "title": "Embeddings",
+    "page": 227,
+    "level": 3
+  },
+  {
+    "title": "Text Similarity",
+    "page": 227,
+    "level": 3
+  },
+  {
+    "title": "Semantic Similarity and Distance",
+    "page": 227,
+    "level": 3
+  },
+  {
+    "title": "Chunking of Documents",
+    "page": 228,
+    "level": 3
+  },
+  {
+    "title": "Vector Databases",
+    "page": 228,
+    "level": 3
+  },
+  {
+    "title": "RAG’s Challenges",
+    "page": 229,
+    "level": 3
+  },
+  {
+    "title": "Graph RAG",
+    "page": 230,
+    "level": 3
+  },
+  {
+    "title": "Agentic RAG",
+    "page": 230,
+    "level": 3
+  },
+  {
+    "title": "Challenges of Agentic RAG",
+    "page": 232,
+    "level": 3
+  },
+  {
+    "title": "In Summary",
+    "page": 232,
+    "level": 3
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 233,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (ADK)",
+    "page": 233,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (LangChain)",
+    "page": 235,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 238,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 239,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 240,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 240,
+    "level": 2
+  },
+  {
+    "title": "15: Inter-Agent Communication (A2A)",
+    "page": 241,
+    "level": 1
+  },
+  {
+    "title": "Inter-Agent Communication Pattern Overview",
+    "page": 241,
+    "level": 2
+  },
+  {
+    "title": "Core Concepts of A2A",
+    "page": 242,
+    "level": 3
+  },
+  {
+    "title": "A2A vs. MCP",
+    "page": 247,
+    "level": 3
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 248,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 248,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 252,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 253,
+    "level": 2
+  },
+  {
+    "title": "Conclusions",
+    "page": 254,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 254,
+    "level": 2
+  },
+  {
+    "title": "16: Resource-Aware Optimization",
+    "page": 256,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 257,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 257,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code with OpenAI",
+    "page": 261,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example (OpenRouter)",
+    "page": 264,
+    "level": 2
+  },
+  {
+    "title": "Beyond Dynamic Model Switching: A Spectrum of Agent Resource Optimizations",
+    "page": 267,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 268,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 269,
+    "level": 2
+  },
+  {
+    "title": "Conclusions",
+    "page": 270,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 270,
+    "level": 2
+  },
+  {
+    "title": "17: Reasoning Techniques",
+    "page": 271,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 271,
+    "level": 2
+  },
+  {
+    "title": "Reasoning Techniques",
+    "page": 272,
+    "level": 2
+  },
+  {
+    "title": "Scaling Inference Law",
+    "page": 286,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 287,
+    "level": 2
+  },
+  {
+    "title": "So, What Do Agents Think?",
+    "page": 289,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 290,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 292,
+    "level": 2
+  },
+  {
+    "title": "Conclusions",
+    "page": 292,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 293,
+    "level": 2
+  },
+  {
+    "title": "18: Guardrails/Safety Patterns",
+    "page": 294,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 295,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code CrewAI Example",
+    "page": 295,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Vertex AI Example",
+    "page": 305,
+    "level": 2
+  },
+  {
+    "title": "Engineering Reliable Agents",
+    "page": 310,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 311,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 312,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 313,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 313,
+    "level": 2
+  },
+  {
+    "title": "19: Evaluation and Monitoring",
+    "page": 314,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 314,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 315,
+    "level": 2
+  },
+  {
+    "title": "Agents Trajectories",
+    "page": 323,
+    "level": 2
+  },
+  {
+    "title": "From Agents to Advanced Contractors",
+    "page": 325,
+    "level": 2
+  },
+  {
+    "title": "Google’s ADK",
+    "page": 327,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 328,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 330,
+    "level": 2
+  },
+  {
+    "title": "Conclusions",
+    "page": 330,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 331,
+    "level": 2
+  },
+  {
+    "title": "20: Prioritization",
+    "page": 332,
+    "level": 1
+  },
+  {
+    "title": "Prioritization Pattern Overview",
+    "page": 332,
+    "level": 2
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 333,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 334,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 339,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 340,
+    "level": 2
+  },
+  {
+    "title": "Conclusions",
+    "page": 340,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 341,
+    "level": 2
+  },
+  {
+    "title": "21: Exploration and Discovery",
+    "page": 342,
+    "level": 1
+  },
+  {
+    "title": "Practical Applications and Use Cases",
+    "page": 342,
+    "level": 2
+  },
+  {
+    "title": "Google Co-scientist",
+    "page": 343,
+    "level": 2
+  },
+  {
+    "title": "Hands-On Code Example",
+    "page": 346,
+    "level": 2
+  },
+  {
+    "title": "At a Glance",
+    "page": 353,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 354,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 354,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 355,
+    "level": 2
+  },
+  {
+    "title": "Part II: The Supplement",
+    "page": 356,
+    "level": 0
+  },
+  {
+    "title": "22: Advanced Prompting Techniques",
+    "page": 357,
+    "level": 1
+  },
+  {
+    "title": "Introduction to Prompting",
+    "page": 357,
+    "level": 2
+  },
+  {
+    "title": "Core Prompting Principles",
+    "page": 358,
+    "level": 2
+  },
+  {
+    "title": "Basic Prompting Techniques",
+    "page": 359,
+    "level": 2
+  },
+  {
+    "title": "Zero-Shot Prompting",
+    "page": 359,
+    "level": 3
+  },
+  {
+    "title": "One-Shot Prompting",
+    "page": 360,
+    "level": 3
+  },
+  {
+    "title": "Few-Shot Prompting",
+    "page": 360,
+    "level": 3
+  },
+  {
+    "title": "Structuring Prompts",
+    "page": 361,
+    "level": 2
+  },
+  {
+    "title": "System Prompting",
+    "page": 362,
+    "level": 3
+  },
+  {
+    "title": "Role Prompting",
+    "page": 362,
+    "level": 3
+  },
+  {
+    "title": "Using Delimiters",
+    "page": 363,
+    "level": 3
+  },
+  {
+    "title": "Contextual Engineering",
+    "page": 363,
+    "level": 2
+  },
+  {
+    "title": "Structured Output",
+    "page": 365,
+    "level": 2
+  },
+  {
+    "title": "Reasoning and Thought Process Techniques",
+    "page": 368,
+    "level": 2
+  },
+  {
+    "title": "Chain of Thought (CoT)",
+    "page": 368,
+    "level": 3
+  },
+  {
+    "title": "Self-Consistency",
+    "page": 370,
+    "level": 3
+  },
+  {
+    "title": "Step-Back Prompting",
+    "page": 371,
+    "level": 3
+  },
+  {
+    "title": "Tree of Thoughts (ToT)",
+    "page": 371,
+    "level": 3
+  },
+  {
+    "title": "Action and Interaction Techniques",
+    "page": 372,
+    "level": 2
+  },
+  {
+    "title": "Tool Use/Function Calling",
+    "page": 372,
+    "level": 3
+  },
+  {
+    "title": "ReAct (Reason and Act)",
+    "page": 373,
+    "level": 3
+  },
+  {
+    "title": "Advanced Techniques",
+    "page": 374,
+    "level": 2
+  },
+  {
+    "title": "Automatic Prompt Engineering (APE)",
+    "page": 375,
+    "level": 3
+  },
+  {
+    "title": "Iterative Prompting/Refinement",
+    "page": 376,
+    "level": 3
+  },
+  {
+    "title": "Providing Negative Examples",
+    "page": 377,
+    "level": 3
+  },
+  {
+    "title": "Using Analogies",
+    "page": 377,
+    "level": 3
+  },
+  {
+    "title": "Factored Cognition/Decomposition",
+    "page": 377,
+    "level": 3
+  },
+  {
+    "title": "Retrieval Augmented Generation (RAG)",
+    "page": 378,
+    "level": 3
+  },
+  {
+    "title": "Persona Pattern (User Persona)",
+    "page": 378,
+    "level": 3
+  },
+  {
+    "title": "Using Google Gems",
+    "page": 379,
+    "level": 2
+  },
+  {
+    "title": "Using LLMs to Refine Prompts (The Meta Approach)",
+    "page": 380,
+    "level": 2
+  },
+  {
+    "title": "Prompting for Specific Tasks",
+    "page": 382,
+    "level": 2
+  },
+  {
+    "title": "Code Prompting",
+    "page": 382,
+    "level": 3
+  },
+  {
+    "title": "Multimodal Prompting",
+    "page": 383,
+    "level": 3
+  },
+  {
+    "title": "Best Practices and Experimentation",
+    "page": 383,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 384,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 386,
+    "level": 2
+  },
+  {
+    "title": "23: AI Agentic Interactions: From GUI to Real World Environment",
+    "page": 387,
+    "level": 1
+  },
+  {
+    "title": "Interaction: Agents with Computers",
+    "page": 387,
+    "level": 2
+  },
+  {
+    "title": "Interaction: Agents with the Environment",
+    "page": 389,
+    "level": 2
+  },
+  {
+    "title": "Vibe Coding: Intuitive Development with AI",
+    "page": 391,
+    "level": 2
+  },
+  {
+    "title": "Key Takeaways",
+    "page": 392,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 393,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 393,
+    "level": 2
+  },
+  {
+    "title": "24: A Quick Overview of Agentic Frameworks",
+    "page": 394,
+    "level": 1
+  },
+  {
+    "title": "LangChain",
+    "page": 394,
+    "level": 2
+  },
+  {
+    "title": "LangGraph",
+    "page": 395,
+    "level": 2
+  },
+  {
+    "title": "Which One Should You Use?",
+    "page": 395,
+    "level": 2
+  },
+  {
+    "title": "Google’s ADK",
+    "page": 397,
+    "level": 2
+  },
+  {
+    "title": "Crew.AI",
+    "page": 398,
+    "level": 2
+  },
+  {
+    "title": "Other Agent Development Framework",
+    "page": 399,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 401,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 401,
+    "level": 2
+  },
+  {
+    "title": "25: Building an Agent with AgentSpace",
+    "page": 402,
+    "level": 1
+  },
+  {
+    "title": "Overview",
+    "page": 402,
+    "level": 2
+  },
+  {
+    "title": "How to Build an Agent with AgentSpace UI",
+    "page": 403,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 407,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 407,
+    "level": 2
+  },
+  {
+    "title": "26: AI Agents on the CLI",
+    "page": 408,
+    "level": 1
+  },
+  {
+    "title": "Introduction",
+    "page": 408,
+    "level": 2
+  },
+  {
+    "title": "Claude CLI (Claude Code)",
+    "page": 408,
+    "level": 2
+  },
+  {
+    "title": "Gemini CLI",
+    "page": 409,
+    "level": 2
+  },
+  {
+    "title": "Aider",
+    "page": 411,
+    "level": 2
+  },
+  {
+    "title": "GitHub Copilot CLI",
+    "page": 411,
+    "level": 2
+  },
+  {
+    "title": "Terminal-Bench: A Benchmark for AI Agents in Command-Line Interfaces",
+    "page": 412,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 412,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 413,
+    "level": 2
+  },
+  {
+    "title": "27: Under the Hood: An Inside Look at the Agents’ Reasoning Engines",
+    "page": 414,
+    "level": 1
+  },
+  {
+    "title": "Gemini",
+    "page": 414,
+    "level": 2
+  },
+  {
+    "title": "Analyzing My Approach",
+    "page": 414,
+    "level": 3
+  },
+  {
+    "title": "Refining the Explanation",
+    "page": 415,
+    "level": 3
+  },
+  {
+    "title": "Elaborating My Methodology",
+    "page": 415,
+    "level": 3
+  },
+  {
+    "title": "ChatGPT",
+    "page": 417,
+    "level": 2
+  },
+  {
+    "title": "🧠 Step-by-Step Explanation: How I Reason",
+    "page": 417,
+    "level": 3
+  },
+  {
+    "title": "Step 1: Read and Understand Your Input",
+    "page": 417,
+    "level": 4
+  },
+  {
+    "title": "Step 2: Activate Relevant Knowledge",
+    "page": 417,
+    "level": 4
+  },
+  {
+    "title": "Step 3: Choose a Reasoning Method",
+    "page": 418,
+    "level": 4
+  },
+  {
+    "title": "Step 4: Simulate Thinking (Chain of Thought)",
+    "page": 418,
+    "level": 4
+  },
+  {
+    "title": "Step 5: Formulate an Answer",
+    "page": 418,
+    "level": 4
+  },
+  {
+    "title": "Step 6: Adjust for Clarity and Tone",
+    "page": 419,
+    "level": 4
+  },
+  {
+    "title": "✅ Final Summary",
+    "page": 419,
+    "level": 3
+  },
+  {
+    "title": "Grok",
+    "page": 419,
+    "level": 2
+  },
+  {
+    "title": "Step-by-Step Explanation of How I Reason",
+    "page": 420,
+    "level": 3
+  },
+  {
+    "title": "Step 1: Understanding the Query",
+    "page": 420,
+    "level": 4
+  },
+  {
+    "title": "Step 2: Contextual Analysis and Knowledge Retrieval",
+    "page": 420,
+    "level": 4
+  },
+  {
+    "title": "Step 3: Formulating a Mental Model",
+    "page": 420,
+    "level": 4
+  },
+  {
+    "title": "Step-by-Step Explanation of How I Reason (Continued)",
+    "page": 421,
+    "level": 3
+  },
+  {
+    "title": "Step 3: Formulating a Mental Model",
+    "page": 421,
+    "level": 4
+  },
+  {
+    "title": "Step 4: Evaluating Options and Hypotheses",
+    "page": 421,
+    "level": 4
+  },
+  {
+    "title": "Step 5: Constructing the Response",
+    "page": 422,
+    "level": 4
+  },
+  {
+    "title": "Step 6: Review and Refinement",
+    "page": 422,
+    "level": 4
+  },
+  {
+    "title": "Key Characteristics of My Reasoning",
+    "page": 422,
+    "level": 3
+  },
+  {
+    "title": "Limitations and Considerations",
+    "page": 424,
+    "level": 3
+  },
+  {
+    "title": "Kimi",
+    "page": 424,
+    "level": 2
+  },
+  {
+    "title": "Claude",
+    "page": 426,
+    "level": 2
+  },
+  {
+    "title": "DeepSeek",
+    "page": 427,
+    "level": 2
+  },
+  {
+    "title": "Conclusion",
+    "page": 430,
+    "level": 2
+  },
+  {
+    "title": "28: Coding Agents",
+    "page": 431,
+    "level": 1
+  },
+  {
+    "title": "Vibe Coding: A Starting Point",
+    "page": 431,
+    "level": 2
+  },
+  {
+    "title": "Agents as Team Members",
+    "page": 431,
+    "level": 3
+  },
+  {
+    "title": "Core Components",
+    "page": 433,
+    "level": 3
+  },
+  {
+    "title": "Practical Implementation",
+    "page": 435,
+    "level": 2
+  },
+  {
+    "title": "Setup Checklist",
+    "page": 435,
+    "level": 3
+  },
+  {
+    "title": "Principles for Leading the Augmented Team",
+    "page": 436,
+    "level": 3
+  },
+  {
+    "title": "Conclusion",
+    "page": 437,
+    "level": 2
+  },
+  {
+    "title": "Bibliography",
+    "page": 438,
+    "level": 2
+  },
+  {
+    "title": "29: Conclusion",
+    "page": 439,
+    "level": 1
+  },
+  {
+    "title": "Review of Key Agentic Principles",
+    "page": 439,
+    "level": 2
+  },
+  {
+    "title": "Combining Patterns for Complex Systems",
+    "page": 441,
+    "level": 2
+  },
+  {
+    "title": "Looking to the Future",
+    "page": 442,
+    "level": 2
+  },
+  {
+    "title": "Final Thoughts",
+    "page": 443,
+    "level": 2
+  },
+  {
+    "title": "Glossary",
+    "page": 445,
+    "level": 0
+  },
+  {
+    "title": "Index",
+    "page": 449,
+    "level": 0
+  }
+]

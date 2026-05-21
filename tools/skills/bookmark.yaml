@@ -1,0 +1,826 @@
+- title: Foreword
+  page: 6
+- title: 'A Thought Leader’s Perspective: Power and Responsibility'
+  page: 8
+- title: Prologue
+  page: 11
+  children:
+  - title: What Makes an AI System an Agent?
+    page: 11
+    children:
+    - title: 'Level 0: The Core Reasoning Engine'
+      page: 12
+    - title: 'Level 1: The Connected Problem-Solver'
+      page: 14
+    - title: 'Level 2: The Strategic Problem-Solver'
+      page: 14
+    - title: 'Level 3: The Rise of Collaborative Multi-Agent Systems'
+      page: 15
+    - title: 'The Future of Agents: Top Five Hypotheses'
+      page: 16
+      children:
+      - title: 'Hypothesis 1: The Emergence of the Generalist Agent'
+        page: 16
+      - title: 'Hypothesis 2: Deep Personalization and Proactive Goal Discovery'
+        page: 17
+      - title: 'Hypothesis 3: Embodiment and Physical World Interaction'
+        page: 17
+      - title: 'Hypothesis 4: The Agent-Driven Economy'
+        page: 18
+      - title: 'Hypothesis 5: The Goal-Driven, Metamorphic Multi-Agent System'
+        page: 18
+  - title: Conclusion
+    page: 19
+  - title: References
+    page: 19
+- title: Preface
+  page: 21
+  children:
+  - title: What Are Agentic Systems?
+    page: 22
+  - title: Why Patterns Matter in Agent Development
+    page: 22
+  - title: Overview of the Book and How to Use It
+    page: 23
+  - title: Introduction to the Frameworks Used
+    page: 24
+- title: Acknowledgments
+  page: 26
+- title: Contents
+  page: 29
+- title: 'Part I: The Patterns'
+  page: 40
+  children:
+  - title: '1: Prompt Chaining'
+    page: 41
+    children:
+    - title: Prompt Chaining Pattern Overview
+      page: 41
+      children:
+      - title: Limitations of Single Prompts
+        page: 42
+      - title: Enhanced Reliability Through Sequential Decomposition
+        page: 42
+      - title: The Role of Structured Output
+        page: 43
+    - title: Practical Applications and Use Cases
+      page: 44
+      children:
+      - title: Information Processing Workflows
+        page: 44
+      - title: Complex Query Answering
+        page: 44
+      - title: Data Extraction and Transformation
+        page: 45
+      - title: Content Generation Workflows
+        page: 46
+      - title: Conversational Agents with State
+        page: 47
+      - title: Code Generation and Refinement
+        page: 47
+      - title: Multimodal and Multi-Step Reasoning
+        page: 48
+    - title: Hands-On Code Example
+      page: 48
+    - title: Context Engineering and Prompt Engineering
+      page: 50
+    - title: At a Glance
+      page: 52
+    - title: Key Takeaways
+      page: 54
+    - title: Conclusion
+      page: 54
+  - title: '2: Routing'
+    page: 55
+    children:
+    - title: Routing Pattern Overview
+      page: 55
+    - title: Practical Applications and Use Cases
+      page: 57
+    - title: Hands-On Code Example (LangChain)
+      page: 58
+    - title: Hands-On Code Example (Google ADK)
+      page: 62
+    - title: At a Glance
+      page: 66
+    - title: Key Takeaways
+      page: 67
+    - title: Conclusion
+      page: 67
+    - title: Bibliography
+      page: 68
+  - title: '3: Parallelization'
+    page: 69
+    children:
+    - title: Parallelization Pattern Overview
+      page: 69
+    - title: Practical Applications and Use Cases
+      page: 71
+      children:
+      - title: Information Gathering and Research
+        page: 71
+      - title: Data Processing and Analysis
+        page: 71
+      - title: Multi-API or Tool Interaction
+        page: 72
+      - title: Content Generation with Multiple Components
+        page: 72
+      - title: Validation and Verification
+        page: 72
+      - title: Multi-Modal Processing
+        page: 72
+      - title: A/B Testing or Multiple Options Generation
+        page: 73
+    - title: Hands-On Code Example (LangChain)
+      page: 73
+    - title: Hands-On Code Example (Google ADK)
+      page: 77
+    - title: At a Glance
+      page: 81
+    - title: Key Takeaways
+      page: 82
+    - title: Conclusion
+      page: 83
+    - title: Bibliography
+      page: 83
+  - title: '4: Reflection'
+    page: 84
+    children:
+    - title: Reflection Pattern Overview
+      page: 84
+    - title: Practical Applications and Use Cases
+      page: 86
+      children:
+      - title: Creative Writing and Content Generation
+        page: 87
+      - title: Code Generation and Debugging
+        page: 87
+      - title: Complex Problem Solving
+        page: 87
+      - title: Summarization and Information Synthesis
+        page: 87
+      - title: Planning and Strategy
+        page: 88
+      - title: Conversational Agents
+        page: 88
+    - title: Hands-On Code Example (LangChain)
+      page: 88
+    - title: Hands-On Code Example (ADK)
+      page: 92
+    - title: At a Glance
+      page: 93
+    - title: Key Takeaways
+      page: 95
+    - title: Conclusion
+      page: 96
+    - title: Bibliography
+      page: 96
+  - title: '5: Tool Use (Function Calling)'
+    page: 97
+    children:
+    - title: Tool Use Pattern Overview
+      page: 97
+    - title: Practical Applications and Use Cases
+      page: 99
+      children:
+      - title: Information Retrieval from External Sources
+        page: 99
+      - title: Interacting with Databases and APIs
+        page: 99
+      - title: Performing Calculations and Data Analysis
+        page: 99
+      - title: Sending Communications
+        page: 100
+      - title: Executing Code
+        page: 100
+      - title: Controlling Other Systems or Devices
+        page: 100
+    - title: Hands-On Code Example (LangChain)
+      page: 101
+    - title: Hands-On Code Example (CrewAI)
+      page: 104
+    - title: Hands-On Code (Google ADK)
+      page: 107
+      children:
+      - title: Google Search
+        page: 108
+      - title: Code Execution
+        page: 111
+      - title: Enterprise Search
+        page: 112
+      - title: Vertex Extensions
+        page: 114
+    - title: At a Glance
+      page: 115
+    - title: Key Takeaways
+      page: 116
+    - title: Conclusion
+      page: 117
+    - title: Bibliography
+      page: 117
+  - title: '6: Planning'
+    page: 118
+    children:
+    - title: Planning Pattern Overview
+      page: 118
+    - title: Practical Applications and Use Cases
+      page: 119
+    - title: Hands-On Code (Crew AI)
+      page: 120
+    - title: Google DeepResearch
+      page: 121
+    - title: OpenAI Deep Research API
+      page: 125
+    - title: At a Glance
+      page: 128
+    - title: Key Takeaways
+      page: 129
+    - title: Conclusion
+      page: 130
+    - title: Bibliography
+      page: 130
+  - title: '7: Multi-Agent Collaboration'
+    page: 131
+    children:
+    - title: Multi-Agent Collaboration Pattern Overview
+      page: 132
+    - title: Practical Applications and Use Cases
+      page: 133
+    - title: 'Multi-Agent Collaboration: Exploring Interrelationships and Communication
+        Structures'
+      page: 134
+    - title: Hands-On Code (Crew AI)
+      page: 137
+    - title: Hands-On Code (Google ADK)
+      page: 139
+    - title: At a Glance
+      page: 145
+    - title: Key Takeaways
+      page: 147
+    - title: Conclusion
+      page: 147
+    - title: Bibliography
+      page: 147
+  - title: '8: Memory Management'
+    page: 148
+    children:
+    - title: Practical Applications and Use Cases
+      page: 149
+    - title: 'Hands-On Code: Memory Management in Google Agent Developer Kit (ADK)'
+      page: 150
+      children:
+      - title: 'Session: Keeping Track of Each Chat'
+        page: 151
+      - title: 'State: The Session’s Scratchpad'
+        page: 153
+      - title: 'Memory: Long-Term Knowledge with MemoryService'
+        page: 157
+    - title: 'Hands-On Code: Memory Management in LangChain and LangGraph'
+      page: 159
+    - title: Vertex Memory Bank
+      page: 164
+    - title: At a Glance
+      page: 165
+    - title: Key Takeaways
+      page: 166
+    - title: Conclusion
+      page: 167
+    - title: Bibliography
+      page: 167
+  - title: '9: Learning and Adaptation'
+    page: 168
+    children:
+    - title: The Big Picture
+      page: 168
+    - title: Practical Applications and Use Cases
+      page: 170
+    - title: 'Case Study: The Self-Improving Coding Agent (SICA)'
+      page: 171
+    - title: AlphaEvolve and OpenEvolve
+      page: 175
+    - title: At a Glance
+      page: 177
+    - title: Key Takeaways
+      page: 178
+    - title: Conclusion
+      page: 179
+    - title: Bibliography
+      page: 179
+  - title: '10: Model Context Protocol'
+    page: 180
+    children:
+    - title: MCP Pattern Overview
+      page: 180
+    - title: MCP vs. Tool Function Calling
+      page: 181
+    - title: Additional Considerations for MCP
+      page: 183
+    - title: Practical Applications and Use Cases
+      page: 185
+    - title: Hands-On Code Example with ADK
+      page: 186
+      children:
+      - title: Agent Setup with MCPToolset
+        page: 187
+      - title: Connecting the MCP Server with ADK Web
+        page: 189
+      - title: Creating an MCP Server with FastMCP
+        page: 189
+      - title: Server Setup with FastMCP
+        page: 190
+      - title: Consuming the FastMCP Server with an ADK Agent
+        page: 191
+    - title: At a Glance
+      page: 193
+    - title: Key Takeaways
+      page: 194
+    - title: Conclusion
+      page: 195
+    - title: Bibliography
+      page: 195
+  - title: '11: Goal Setting and Monitoring'
+    page: 196
+    children:
+    - title: Goal Setting and Monitoring Pattern Overview
+      page: 196
+    - title: Practical Applications and Use Cases
+      page: 197
+    - title: Hands-On Code Example
+      page: 198
+      children:
+      - title: Dependencies
+        page: 198
+      - title: Caveats and Considerations
+        page: 204
+    - title: At a Glance
+      page: 205
+    - title: Key Takeaways
+      page: 206
+    - title: Conclusion
+      page: 207
+    - title: Bibliography
+      page: 207
+  - title: '12: Exception Handling and Recovery'
+    page: 208
+    children:
+    - title: Exception Handling and Recovery Pattern Overview
+      page: 209
+    - title: Practical Applications and Use Cases
+      page: 210
+    - title: Hands-On Code Example (ADK)
+      page: 211
+    - title: At a Glance
+      page: 213
+    - title: Key Takeaways
+      page: 214
+    - title: Conclusion
+      page: 214
+    - title: Bibliography
+      page: 215
+  - title: '13: Human-in-the-Loop'
+    page: 216
+    children:
+    - title: Human-in-the-Loop Pattern Overview
+      page: 217
+    - title: Practical Applications and Use Cases
+      page: 218
+    - title: Hands-On Code Example
+      page: 220
+    - title: At a Glance
+      page: 222
+    - title: Key Takeaways
+      page: 223
+    - title: Conclusion
+      page: 224
+    - title: Bibliography
+      page: 224
+  - title: '14: Knowledge Retrieval (RAG)'
+    page: 225
+    children:
+    - title: Knowledge Retrieval (RAG) Pattern Overview
+      page: 225
+      children:
+      - title: Embeddings
+        page: 227
+      - title: Text Similarity
+        page: 227
+      - title: Semantic Similarity and Distance
+        page: 227
+      - title: Chunking of Documents
+        page: 228
+      - title: Vector Databases
+        page: 228
+      - title: RAG’s Challenges
+        page: 229
+      - title: Graph RAG
+        page: 230
+      - title: Agentic RAG
+        page: 230
+      - title: Challenges of Agentic RAG
+        page: 232
+      - title: In Summary
+        page: 232
+    - title: Practical Applications and Use Cases
+      page: 233
+    - title: Hands-On Code Example (ADK)
+      page: 233
+    - title: Hands-On Code Example (LangChain)
+      page: 235
+    - title: At a Glance
+      page: 238
+    - title: Key Takeaways
+      page: 239
+    - title: Conclusion
+      page: 240
+    - title: Bibliography
+      page: 240
+  - title: '15: Inter-Agent Communication (A2A)'
+    page: 241
+    children:
+    - title: Inter-Agent Communication Pattern Overview
+      page: 241
+      children:
+      - title: Core Concepts of A2A
+        page: 242
+      - title: A2A vs. MCP
+        page: 247
+    - title: Practical Applications and Use Cases
+      page: 248
+    - title: Hands-On Code Example
+      page: 248
+    - title: At a Glance
+      page: 252
+    - title: Key Takeaways
+      page: 253
+    - title: Conclusions
+      page: 254
+    - title: Bibliography
+      page: 254
+  - title: '16: Resource-Aware Optimization'
+    page: 256
+    children:
+    - title: Practical Applications and Use Cases
+      page: 257
+    - title: Hands-On Code Example
+      page: 257
+    - title: Hands-On Code with OpenAI
+      page: 261
+    - title: Hands-On Code Example (OpenRouter)
+      page: 264
+    - title: 'Beyond Dynamic Model Switching: A Spectrum of Agent Resource Optimizations'
+      page: 267
+    - title: At a Glance
+      page: 268
+    - title: Key Takeaways
+      page: 269
+    - title: Conclusions
+      page: 270
+    - title: Bibliography
+      page: 270
+  - title: '17: Reasoning Techniques'
+    page: 271
+    children:
+    - title: Practical Applications and Use Cases
+      page: 271
+    - title: Reasoning Techniques
+      page: 272
+    - title: Scaling Inference Law
+      page: 286
+    - title: Hands-On Code Example
+      page: 287
+    - title: So, What Do Agents Think?
+      page: 289
+    - title: At a Glance
+      page: 290
+    - title: Key Takeaways
+      page: 292
+    - title: Conclusions
+      page: 292
+    - title: Bibliography
+      page: 293
+  - title: '18: Guardrails/Safety Patterns'
+    page: 294
+    children:
+    - title: Practical Applications and Use Cases
+      page: 295
+    - title: Hands-On Code CrewAI Example
+      page: 295
+    - title: Hands-On Code Vertex AI Example
+      page: 305
+    - title: Engineering Reliable Agents
+      page: 310
+    - title: At a Glance
+      page: 311
+    - title: Key Takeaways
+      page: 312
+    - title: Conclusion
+      page: 313
+    - title: Bibliography
+      page: 313
+  - title: '19: Evaluation and Monitoring'
+    page: 314
+    children:
+    - title: Practical Applications and Use Cases
+      page: 314
+    - title: Hands-On Code Example
+      page: 315
+    - title: Agents Trajectories
+      page: 323
+    - title: From Agents to Advanced Contractors
+      page: 325
+    - title: Google’s ADK
+      page: 327
+    - title: At a Glance
+      page: 328
+    - title: Key Takeaways
+      page: 330
+    - title: Conclusions
+      page: 330
+    - title: Bibliography
+      page: 331
+  - title: '20: Prioritization'
+    page: 332
+    children:
+    - title: Prioritization Pattern Overview
+      page: 332
+    - title: Practical Applications and Use Cases
+      page: 333
+    - title: Hands-On Code Example
+      page: 334
+    - title: At a Glance
+      page: 339
+    - title: Key Takeaways
+      page: 340
+    - title: Conclusions
+      page: 340
+    - title: Bibliography
+      page: 341
+  - title: '21: Exploration and Discovery'
+    page: 342
+    children:
+    - title: Practical Applications and Use Cases
+      page: 342
+    - title: Google Co-scientist
+      page: 343
+    - title: Hands-On Code Example
+      page: 346
+    - title: At a Glance
+      page: 353
+    - title: Key Takeaways
+      page: 354
+    - title: Conclusion
+      page: 354
+    - title: Bibliography
+      page: 355
+- title: 'Part II: The Supplement'
+  page: 356
+  children:
+  - title: '22: Advanced Prompting Techniques'
+    page: 357
+    children:
+    - title: Introduction to Prompting
+      page: 357
+    - title: Core Prompting Principles
+      page: 358
+    - title: Basic Prompting Techniques
+      page: 359
+      children:
+      - title: Zero-Shot Prompting
+        page: 359
+      - title: One-Shot Prompting
+        page: 360
+      - title: Few-Shot Prompting
+        page: 360
+    - title: Structuring Prompts
+      page: 361
+      children:
+      - title: System Prompting
+        page: 362
+      - title: Role Prompting
+        page: 362
+      - title: Using Delimiters
+        page: 363
+    - title: Contextual Engineering
+      page: 363
+    - title: Structured Output
+      page: 365
+    - title: Reasoning and Thought Process Techniques
+      page: 368
+      children:
+      - title: Chain of Thought (CoT)
+        page: 368
+      - title: Self-Consistency
+        page: 370
+      - title: Step-Back Prompting
+        page: 371
+      - title: Tree of Thoughts (ToT)
+        page: 371
+    - title: Action and Interaction Techniques
+      page: 372
+      children:
+      - title: Tool Use/Function Calling
+        page: 372
+      - title: ReAct (Reason and Act)
+        page: 373
+    - title: Advanced Techniques
+      page: 374
+      children:
+      - title: Automatic Prompt Engineering (APE)
+        page: 375
+      - title: Iterative Prompting/Refinement
+        page: 376
+      - title: Providing Negative Examples
+        page: 377
+      - title: Using Analogies
+        page: 377
+      - title: Factored Cognition/Decomposition
+        page: 377
+      - title: Retrieval Augmented Generation (RAG)
+        page: 378
+      - title: Persona Pattern (User Persona)
+        page: 378
+    - title: Using Google Gems
+      page: 379
+    - title: Using LLMs to Refine Prompts (The Meta Approach)
+      page: 380
+    - title: Prompting for Specific Tasks
+      page: 382
+      children:
+      - title: Code Prompting
+        page: 382
+      - title: Multimodal Prompting
+        page: 383
+    - title: Best Practices and Experimentation
+      page: 383
+    - title: Conclusion
+      page: 384
+    - title: Bibliography
+      page: 386
+  - title: '23: AI Agentic Interactions: From GUI to Real World Environment'
+    page: 387
+    children:
+    - title: 'Interaction: Agents with Computers'
+      page: 387
+    - title: 'Interaction: Agents with the Environment'
+      page: 389
+    - title: 'Vibe Coding: Intuitive Development with AI'
+      page: 391
+    - title: Key Takeaways
+      page: 392
+    - title: Conclusion
+      page: 393
+    - title: Bibliography
+      page: 393
+  - title: '24: A Quick Overview of Agentic Frameworks'
+    page: 394
+    children:
+    - title: LangChain
+      page: 394
+    - title: LangGraph
+      page: 395
+    - title: Which One Should You Use?
+      page: 395
+    - title: Google’s ADK
+      page: 397
+    - title: Crew.AI
+      page: 398
+    - title: Other Agent Development Framework
+      page: 399
+    - title: Conclusion
+      page: 401
+    - title: Bibliography
+      page: 401
+  - title: '25: Building an Agent with AgentSpace'
+    page: 402
+    children:
+    - title: Overview
+      page: 402
+    - title: How to Build an Agent with AgentSpace UI
+      page: 403
+    - title: Conclusion
+      page: 407
+    - title: Bibliography
+      page: 407
+  - title: '26: AI Agents on the CLI'
+    page: 408
+    children:
+    - title: Introduction
+      page: 408
+    - title: Claude CLI (Claude Code)
+      page: 408
+    - title: Gemini CLI
+      page: 409
+    - title: Aider
+      page: 411
+    - title: GitHub Copilot CLI
+      page: 411
+    - title: 'Terminal-Bench: A Benchmark for AI Agents in Command-Line Interfaces'
+      page: 412
+    - title: Conclusion
+      page: 412
+    - title: Bibliography
+      page: 413
+  - title: '27: Under the Hood: An Inside Look at the Agents’ Reasoning Engines'
+    page: 414
+    children:
+    - title: Gemini
+      page: 414
+      children:
+      - title: Analyzing My Approach
+        page: 414
+      - title: Refining the Explanation
+        page: 415
+      - title: Elaborating My Methodology
+        page: 415
+    - title: ChatGPT
+      page: 417
+      children:
+      - title: '🧠 Step-by-Step Explanation: How I Reason'
+        page: 417
+        children:
+        - title: 'Step 1: Read and Understand Your Input'
+          page: 417
+        - title: 'Step 2: Activate Relevant Knowledge'
+          page: 417
+        - title: 'Step 3: Choose a Reasoning Method'
+          page: 418
+        - title: 'Step 4: Simulate Thinking (Chain of Thought)'
+          page: 418
+        - title: 'Step 5: Formulate an Answer'
+          page: 418
+        - title: 'Step 6: Adjust for Clarity and Tone'
+          page: 419
+      - title: ✅ Final Summary
+        page: 419
+    - title: Grok
+      page: 419
+      children:
+      - title: Step-by-Step Explanation of How I Reason
+        page: 420
+        children:
+        - title: 'Step 1: Understanding the Query'
+          page: 420
+        - title: 'Step 2: Contextual Analysis and Knowledge Retrieval'
+          page: 420
+        - title: 'Step 3: Formulating a Mental Model'
+          page: 420
+      - title: Step-by-Step Explanation of How I Reason (Continued)
+        page: 421
+        children:
+        - title: 'Step 3: Formulating a Mental Model'
+          page: 421
+        - title: 'Step 4: Evaluating Options and Hypotheses'
+          page: 421
+        - title: 'Step 5: Constructing the Response'
+          page: 422
+        - title: 'Step 6: Review and Refinement'
+          page: 422
+      - title: Key Characteristics of My Reasoning
+        page: 422
+      - title: Limitations and Considerations
+        page: 424
+    - title: Kimi
+      page: 424
+    - title: Claude
+      page: 426
+    - title: DeepSeek
+      page: 427
+    - title: Conclusion
+      page: 430
+  - title: '28: Coding Agents'
+    page: 431
+    children:
+    - title: 'Vibe Coding: A Starting Point'
+      page: 431
+      children:
+      - title: Agents as Team Members
+        page: 431
+      - title: Core Components
+        page: 433
+    - title: Practical Implementation
+      page: 435
+      children:
+      - title: Setup Checklist
+        page: 435
+      - title: Principles for Leading the Augmented Team
+        page: 436
+    - title: Conclusion
+      page: 437
+    - title: Bibliography
+      page: 438
+  - title: '29: Conclusion'
+    page: 439
+    children:
+    - title: Review of Key Agentic Principles
+      page: 439
+    - title: Combining Patterns for Complex Systems
+      page: 441
+    - title: Looking to the Future
+      page: 442
+    - title: Final Thoughts
+      page: 443
+- title: Glossary
+  page: 445
+- title: Index
+  page: 449
+
