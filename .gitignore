@@ -5,9 +5,10 @@
 .obsidian/cache/
 .obsidian/.trash/
 
-# Obsidian - ignore plugin binaries (let plugin manager restore them)
-.obsidian/plugins/*/main.js
-.obsidian/plugins/*/styles.css
+# Obsidian - ignore personal/plugin setup
+.obsidian/community-plugins.json
+.obsidian/hotkeys.json
+.obsidian/plugins/
 
 # OS / editor noise
 .DS_Store
