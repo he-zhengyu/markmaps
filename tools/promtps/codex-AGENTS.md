@@ -19,8 +19,8 @@
     .bare/
     .git/
     main/
-    feature/a
-    feature/b
+    feature-a/
+    feature-b/
 
 # Formatting Rules
 - Prefer natural prose, normal Markdown lists, and tables for explanations. Avoid excessive formatting and visual fragmentation.
