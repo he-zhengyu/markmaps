@@ -1,6 +1,6 @@
 ---
 markmap:
-  initialExpandLevel: 
+  initialExpandLevel:
   maxWidth: 0
   colorFreezeLevel: 3
 ---

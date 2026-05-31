@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"803e23d2a17c9871","type":"file","file":"lectures/deeplearning.ai/Agent-Skills-with-Anthropic/03_why_use_skills_part_i.md","x":-2660,"y":-1040,"width":760,"height":1145},
+		{"id":"1fc1493a6a6cbf82","type":"file","file":"lectures/deeplearning.ai/Agent-Skills-with-Anthropic/01_introduction.md","x":-1260,"y":-1060,"width":720,"height":1145}
+	],
+	"edges":[]
+}
