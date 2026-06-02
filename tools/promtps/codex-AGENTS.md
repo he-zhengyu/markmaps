@@ -31,7 +31,6 @@
   - always try to use **Mermaid.js** code blocks (`mermaid`), e.g. for sequence diagrams, flowcharts, and architecture interactions. 
   - charts are better top-down, not left-right. if a chart is large, better I can slide it horizontally, as message window width is limited.
   - DO NOT use ASCII art and never HTML/CSS.
-  - since **mermaid diagram** can not be copied as mermaid code, duplicate a plaintext copy of the mermaid code after the mermaid block.
 
 # Citation Requirements
 - Web search is **optional and agent-discretionary**. Prefer answering from training knowledge on the first 1–2 exchanges of a question thread; search only when the question is version-sensitive, involves recent changes, or confidence is low.
