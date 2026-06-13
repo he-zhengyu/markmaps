@@ -51,6 +51,7 @@ A book chapter is a **structured argument**, not a flat list. Extract its intell
 - Structure and length proportional to the chapter's actual conceptual content.
 - No orphaned nodes, no empty branches.
 - Always end with a `## Key Takeaways` H2 — the chapter's core arguments distilled.
+- `## Key Takeaways` can have listed items(only 1 level at most) if it's really necessary.
 - Nodes: **noun phrase, key term, or compact claim** — under ~50 chars where possible, never at the cost of clarity.
 - Use **bold** for key terms, `code` for technical identifiers, *italic* for emphasis/titles.
 

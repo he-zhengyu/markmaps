@@ -48,6 +48,7 @@ A transcript is **flat, redundant, and chronological**. Your hardest job is impo
 - Length proportional to the **distinct ideas** in the talk, NOT its word count (transcripts are verbose — compress hard).
 - No orphaned nodes, no empty branches.
 - Always end with a `## Key Takeaways` H2 — the talk's main points distilled.
+- `## Key Takeaways` can have listed items(only 1 level at most) if it's really necessary.
 - Nodes: **noun phrase, key term, or compact claim** — under ~50 chars where possible, never at the cost of clarity.
 - Use **bold** for key terms, `code` for technical identifiers, *italic* for emphasis/titles.
 

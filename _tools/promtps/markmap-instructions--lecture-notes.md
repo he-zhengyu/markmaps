@@ -49,6 +49,7 @@ These notes are **already a hierarchical tree**. Your job is to faithfully trans
 - Structure and depth mirror the notes' indentation (these notes are dense — branches often reach 5–6 levels).
 - No orphaned nodes, no empty branches.
 - Always end with a `## Key Takeaways` H2 (derived from the notes' summary if present).
+- `## Key Takeaways` can have listed items(only 1 level at most) if it's really necessary.
 - Nodes: **noun phrase, key term, or compact claim** — under ~50 chars where possible, never at the cost of clarity.
 - Use **bold** for key terms, `code` for technical identifiers (`i64.store`, `call_indirect`, `#![forbid(unsafe_code)]`), *italic* for emphasis/titles.
 
