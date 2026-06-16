@@ -74,6 +74,7 @@ A deck is an **ordered topic progression**, not a flat bullet dump. Recover its 
 - Depth proportional to the deck's actual conceptual content; 3–6 levels where supported.
 - No orphaned nodes, no empty branches.
 - Always end with a `## Key Takeaways` H2 — the lecture's core points distilled.
+- `## Key Takeaways` can have listed items(only 1 level at most) if it's really necessary.
 - Nodes: **noun phrase, key term, or compact claim** — keep **self-contained** (a bare "3 cases" needs its subject), under ~50 chars where possible, never at the cost of clarity.
 - Use **bold** for key terms, `code` for technical identifiers/APIs, *italic* for emphasis/titles.
 
