@@ -1,0 +1,5 @@
+---NOTE--- 
+- this is book content for an item of "effective java 3rd edition", 
+- I copied it from PDF book, so you will see some page headers and footers which are all in upper case. like the following:
+  - """72 CHAPTER 3 METHODS COMMON TO ALL OBJECTS""" 
+  - """ITEM 14: CONSIDER IMPLEMENTING COMPARABLE 71"""
