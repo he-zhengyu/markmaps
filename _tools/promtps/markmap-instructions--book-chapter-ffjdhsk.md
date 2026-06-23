@@ -97,6 +97,6 @@ Output only the final markmap as raw Markdown. No code fence, no preamble, no ex
 ---
 
 # INPUT FORMAT
-The user's message is the source chapter — pasted directly, no delimiters needed. then can have optional info:
+The user's entire message is the source chapter — paste directly, no delimiters needed.
 **Optional bookmark:** marker `---BOOKMARK---`
 **Optional side note:** marker `---NOTE---`
