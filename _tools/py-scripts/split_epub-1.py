@@ -48,15 +48,44 @@ def get_spine_order(epub_path):
         return result
 
 
+def clean_html_text(raw: str) -> str:
+    text = re.sub(r"<[^>]+>", "", raw)
+    text = html_module.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def extract_chapter_number_from_html(html_bytes: bytes) -> int | None:
+    html = html_bytes.decode("utf-8", errors="replace")
+    candidates = []
+
+    title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+    if title_match:
+        candidates.append(clean_html_text(title_match.group(1)))
+
+    body_match = re.search(r"<body[^>]*>(.*)", html, re.IGNORECASE | re.DOTALL)
+    search_area = body_match.group(1) if body_match else html
+    blocks = re.findall(r"<(?:p|h1|h2)[^>]*>(.*?)</(?:p|h1|h2)>", search_area, re.IGNORECASE | re.DOTALL)
+    candidates.extend(clean_html_text(block) for block in blocks[:10])
+
+    for text in candidates:
+        match = re.search(r"\bChapter\s+(\d+)\b", text, re.IGNORECASE)
+        if match:
+            return int(match.group(1))
+
+    return None
+
+
+def extract_chapter_number_from_path(internal_path: str) -> int | None:
+    path = urllib.parse.unquote(internal_path)
+    match = re.search(r"Chapter\s*(\d+)", Path(path).name, re.IGNORECASE)
+    return int(match.group(1)) if match else None
+
+
 def extract_title_from_html(html_bytes: bytes) -> str:
     html = html_bytes.decode("utf-8", errors="replace")
 
     body_match = re.search(r"<body[^>]*>(.*)", html, re.IGNORECASE | re.DOTALL)
     search_area = body_match.group(1) if body_match else html
-
-    def clean(raw: str) -> str:
-        text = re.sub(r"<[^>]+>", "", raw)
-        return re.sub(r"\s+", " ", text).strip()
 
     # Strategy 1: semantic <section data-type="..."> → inner heading
     section_match = re.search(r'<section[^>]+data-type="([^"]+)"[^>]*>(.*?)</section>',
@@ -65,7 +94,7 @@ def extract_title_from_html(html_bytes: bytes) -> str:
         section_body = section_match.group(2)
         h1 = re.search(r"<h1[^>]*>(.*?)</h1>", section_body, re.IGNORECASE | re.DOTALL)
         h2 = re.search(r"<h2[^>]*>(.*?)</h2>", section_body, re.IGNORECASE | re.DOTALL)
-        heading = clean(h1.group(1)) if h1 else (clean(h2.group(1)) if h2 else "")
+        heading = clean_html_text(h1.group(1)) if h1 else (clean_html_text(h2.group(1)) if h2 else "")
         if heading:
             return heading
 
@@ -73,13 +102,13 @@ def extract_title_from_html(html_bytes: bytes) -> str:
     for tag in ["h1", "h2"]:
         m = re.search(fr"<{tag}[^>]*>(.*?)</{tag}>", search_area, re.IGNORECASE | re.DOTALL)
         if m:
-            t = clean(m.group(1))
+            t = clean_html_text(m.group(1))
             if t:
                 return t
 
     # Strategy 3: "Chapter N" label + title spread across two <p> tags
     paragraphs = re.findall(r"<p[^>]*>(.*?)</p>", search_area, re.IGNORECASE | re.DOTALL)
-    texts = [clean(p) for p in paragraphs]
+    texts = [clean_html_text(p) for p in paragraphs]
     texts = [t for t in texts if t]
     if not texts:
         return ""
@@ -103,6 +132,18 @@ def slugify(text: str, max_len: int = 60) -> str:
     return text[:max_len]
 
 
+def build_output_filename(idx: int, item_id: str, internal_path: str, html_bytes: bytes) -> str:
+    title = extract_title_from_html(html_bytes)
+    slug = slugify(title) if title else item_id
+    chapter_num = (
+        extract_chapter_number_from_html(html_bytes)
+        or extract_chapter_number_from_path(internal_path)
+    )
+    if chapter_num is not None:
+        return f"{idx:03d}_ch{chapter_num:02d}_{slug}.md"
+    return f"{idx:03d}_{slug}.md"
+
+
 def extract_and_convert(epub_path: Path, spine_items: list, output_dir: Path):
     with zipfile.ZipFile(epub_path) as z:
         for idx, item_id, internal_path in spine_items:
@@ -112,9 +153,7 @@ def extract_and_convert(epub_path: Path, spine_items: list, output_dir: Path):
                 print(f"  [SKIP] 找不到: {internal_path}")
                 continue
 
-            title = extract_title_from_html(html_bytes)
-            slug = slugify(title) if title else item_id
-            out_md = output_dir / f"{idx:03d}_{slug}.md"
+            out_md = output_dir / build_output_filename(idx, item_id, internal_path, html_bytes)
 
             tmp_html = Path(f"/tmp/_split_epub_{idx:03d}.html")
             tmp_html.write_bytes(html_bytes)
