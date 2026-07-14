@@ -119,7 +119,7 @@ def extract_title_from_html(html_bytes: bytes) -> str:
     if chapter_label and len(texts) >= 2:
         num_match = re.search(r"\d+", texts[0])
         num = f"{int(num_match.group()):02d}" if num_match else ""
-        return f"Ch{num}_{texts[1]}"
+        return texts[1]
 
     return texts[0]
 
